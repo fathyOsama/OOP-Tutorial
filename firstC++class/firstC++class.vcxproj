@@ -131,9 +131,12 @@
     <ClCompile Include="car.cpp" />
     <ClCompile Include="counter.cpp" />
     <ClCompile Include="Distance.cpp" />
+    <ClCompile Include="Employeefff.cpp" />
     <ClCompile Include="firstC++class.cpp" />
+    <ClCompile Include="multipleinheritance.cpp" />
     <ClCompile Include="person.cpp" />
     <ClCompile Include="postgraduatedstudent.cpp" />
+    <ClCompile Include="Shape.cpp" />
     <ClCompile Include="student.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -141,8 +144,11 @@
     <ClInclude Include="car.h" />
     <ClInclude Include="counter.h" />
     <ClInclude Include="Distance.h" />
+    <ClInclude Include="Employeefff.h" />
+    <ClInclude Include="multipleinheritance.h" />
     <ClInclude Include="person.h" />
     <ClInclude Include="postgraduatedstudent.h" />
+    <ClInclude Include="Shape.h" />
     <ClInclude Include="student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

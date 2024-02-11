@@ -39,6 +39,15 @@
     <ClCompile Include="postgraduatedstudent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="multipleinheritance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Employeefff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.h">
@@ -60,6 +69,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="postgraduatedstudent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="multipleinheritance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Employeefff.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
