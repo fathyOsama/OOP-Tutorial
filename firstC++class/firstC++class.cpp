@@ -8,7 +8,33 @@
 #include "counter.h"
 #include"student.h"
 #include "postgraduatedstudent.h"  
-
+int main()
+{
+	int x = 0, y = 0;
+	cout << "Enter Value for X and Y " << endl;
+	cin >> x;
+	cin >> y;
+	try {
+		if (x < 30)
+			throw "x exception";
+		if (y == 0)
+			throw (500);
+		cout << x / y << endl;
+	}
+	catch(int e)
+	{
+		cout << "division by zero exception" << endl;
+		cout << "y must by other trhon" << endl;
+	}
+	catch (const char* mag)
+	{
+		cout << mag << endl;
+		cout << "x must by greater than 30" << endl;
+	}
+	cout << "the program continued " << endl;
+	cout << x + y + 100 << endl;
+	return 0;
+}
 
 //int main()
 //{

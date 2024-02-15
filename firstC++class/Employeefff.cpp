@@ -8,7 +8,7 @@ protected:
 	int emp_id;
 	float salary;
 public:
-	Employee():name("unknow"), emp_id(0), salary(0.0)
+	Employee() :name("unknow"), emp_id(0), salary(0.0)
 	{
 
 	}
@@ -21,7 +21,9 @@ public:
 	virtual float get_total_salary() = 0;
 	virtual void print()
 	{
-		cout << "name = " << name << "  ,emp_id = " << emp_id << "   ,salary = " << salary << endl;
+		cout << "name = " << name << endl;
+		cout << "emp_id = " << emp_id << endl;
+		cout << "salary = " << salary << endl;
 	}
 };
 
@@ -45,7 +47,8 @@ public:
 	void print()
 	{
 		Employee::print();
-		cout << "    gross_sales = " << gross_sales << "    ,commission_rate = " << commission_rate << endl;
+		cout << "gross_sales = " << gross_sales << endl;
+		cout << "commission_rate = " << commission_rate << endl;
 	}
 };
 
@@ -72,23 +75,28 @@ public:
 	void print()
 	{
 		Employee::print();
-		cout << "speciality = " << speciality << "     ,experience = " << experience << "     ,overtime_hours = " << overtime_hours << "      ,overtime_hours_rate" << overtime_hours_rate << endl;
+		cout << "speciality = " << speciality << endl;
+		cout << "experience = " << experience << endl;
+		cout << "overtime_hours = " << overtime_hours << endl;
+		cout << "overtime_hours_rate = " << overtime_hours_rate << endl;
 	}
 };
- 
 
-int main()
+
+/*int main()
 {
 	Employee* emp_ptr;
 	Sales s1("mohmed", 120, 5000, 50000, 0.10);
 	Engineer e1("Fathey", 150, 7000, "sw engineer", 5, 10, 50);
 	emp_ptr = &s1;
 	emp_ptr->get_total_salary();
+	cout << "============================\n";
 	emp_ptr->print();
-
+	cout << "============================\n";
 	emp_ptr = &e1;
 	emp_ptr->get_total_salary();
+	cout << "============================\n";
 	emp_ptr->print();
 	return 0;
 
-}
+}*/

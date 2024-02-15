@@ -133,6 +133,8 @@
     <ClCompile Include="Distance.cpp" />
     <ClCompile Include="Employeefff.cpp" />
     <ClCompile Include="firstC++class.cpp" />
+    <ClCompile Include="Friendclassperson.cpp" />
+    <ClCompile Include="Friendfunctionperson.cpp" />
     <ClCompile Include="multipleinheritance.cpp" />
     <ClCompile Include="person.cpp" />
     <ClCompile Include="postgraduatedstudent.cpp" />
@@ -145,6 +147,7 @@
     <ClInclude Include="counter.h" />
     <ClInclude Include="Distance.h" />
     <ClInclude Include="Employeefff.h" />
+    <ClInclude Include="Friendfunctionperson.h" />
     <ClInclude Include="multipleinheritance.h" />
     <ClInclude Include="person.h" />
     <ClInclude Include="postgraduatedstudent.h" />

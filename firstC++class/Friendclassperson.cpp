@@ -4,7 +4,6 @@ using namespace std;
 class Person2
 {
 private:
-private:
 	string name;
 	string gender;
 	float age;
@@ -39,10 +38,10 @@ public:
 
 };
 
-int main()
+/*int main()
 {
 	Person2 p("sheheb", "male", 26);
 	printclass pc;
 	pc.print(p);
-
-}
+	return 0;
+}*/
